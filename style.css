@@ -685,8 +685,7 @@ body{
 
 
 
-/*  Making the website Responsive */
-/* We have to again write the separate code for smaller displays */
+ /* FOR MID-SIZE DEVICES */
 
 @media (max-width: 1100px){
     html{
@@ -827,9 +826,180 @@ body{
     input, textarea{
         height: 4rem;
     }
-
-
-
 }
 
 
+
+
+
+/* FOR MOBILE DEVICES */
+
+@media (max-width: 800px){
+
+    .nav_bar {
+        padding: 2vh 10vw;
+    }
+
+    #hero_section {
+        min-height: auto;
+        padding: 8rem 5vw;
+    }
+
+
+    .hero_info {
+        width: 100%;
+        padding-right: 3rem;
+        padding-left: 1.5rem;
+    }
+
+
+    .hero_heading {
+        font-size: 3.25rem;
+        line-height: 4.2rem;
+    }
+
+
+    .hero_action_buttons {
+        width: 100%;
+    }
+
+
+    .hero_section_img_container {
+        transform: scale(0.65);
+        right: 6vw;
+        top: 45vh;
+    }
+
+    .brands_section {
+        top: 33vh;
+        padding: 5rem 3.5rem 5rem 1.3rem;
+    }
+
+    #about_section {
+        padding: 0 3rem 0 2rem;
+        width: 100%;
+        position: relative;
+        top: 10rem;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        display: block;
+    }
+
+    .about_us_image_container {
+        transform: scale(0.85);
+        left: 0.5rem;
+    }
+
+    .about_us {
+        transform: scale(1);
+        position: relative;
+        left: 0.5rem;
+        padding-top: 3rem;
+    }
+
+    .about_us .section_secondary_line {
+        margin-bottom: 1rem;
+        padding-left: 1.2rem;
+    }
+
+    .about_us_title {
+        margin-bottom: 1.5rem;
+        padding-right: 2rem;
+        padding-left: 1rem;
+    }
+
+    .benefit_card {
+        line-height: 2rem;
+        margin-bottom: 1rem;
+    }
+
+
+    #service_section {
+        padding: 0 5vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        position: relative;
+        top: 20.5vh;
+    }
+
+    .service_section_title {
+        padding-left: 1rem;
+        padding-right: 2rem;
+    }
+
+    .section_secondary_line {
+        padding-left: 1rem;
+        padding-right: 2rem;
+    }
+
+    .service_container {
+        display: block;
+        padding-left: 1rem;
+        padding-right: 1.5rem;
+    }
+
+    #faq_section {
+        position: relative;
+        top: 20vh;
+    }
+
+    #faq_section {
+        padding: 0 0;
+        padding-left: 2rem;
+        padding-right: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    #faq_section .section_secondary_line {
+        margin-left: 0.5rem;
+    }
+
+    #faq_section .section_title {
+        text-align: center;
+        margin-bottom: 2.5rem;
+        padding-left: 0.5rem;
+        padding-right: 2rem;
+    }
+
+
+    #contact_section {
+        display: block;
+        position: relative;
+        top: 20vh;
+        padding-left: 1.5rem;
+        padding-right: 3rem;
+        width: 100%;
+    }
+
+    .contact_us_img_container {
+        transform: scale(0.85);
+        right: 1.5rem;
+        top: -3rem;
+    }
+
+    .contact_us {
+        position: relative;
+        width: 100%;
+        height: 67vh;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 2rem;
+        padding-bottom: 3rem;
+        
+    }
+
+    .contact_form {
+        padding-right: 1.3rem;
+    }
+
+    .contact_form .btn {
+        position: relative;
+        padding: 0.9rem 1.8rem;
+        margin-right: auto;
+        font-size: 1rem;
+        left: 6.5rem;
+    }
+}
