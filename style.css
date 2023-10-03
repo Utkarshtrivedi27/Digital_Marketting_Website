@@ -597,7 +597,7 @@ body{
 /* CONTACT SECTION */
 #contact_section{
     background: var(--accent-color);
-    height: 98vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -834,7 +834,7 @@ body{
 
 /* FOR MOBILE DEVICES */
 
-@media (max-width: 800px){
+@media (max-width: 420px){
 
     .nav_bar {
         padding: 4rem 5rem 2.5rem 2.3rem;
@@ -842,8 +842,7 @@ body{
 
     #hero_section {
         padding: 0 5vw;
-        padding-top: 13vh;
-        left: 3vw;
+        padding-top: 15vh;
         padding-bottom: 3.5vh;
     }
 
@@ -868,13 +867,13 @@ body{
 
 
     .hero_section_img_container {
-        transform: scale(0.65);
-        right: 1vw;
-        top: 30rem;
+        transform: scale(0.70);
+        right: -1.7vw;
+        top: 32rem;
     }
 
     .brands_section {
-        top: 22rem;
+        top: 24rem;
         padding: 10vh 2vw 10vh 6vw;
     }
 
@@ -882,7 +881,7 @@ body{
         padding: 0 3rem 0 2rem;
         width: 100%;
         position: relative;
-        top: 10rem;
+        top: 13rem;
         margin-top: 5rem;
         margin-bottom: 3rem;
         display: block;
@@ -969,15 +968,16 @@ body{
     #contact_section {
         display: block;
         position: relative;
-        top: 20vh;
+        top: 22vh;
         padding-left: 1.5rem;
-        padding-right: 3rem;
+        padding-right: 2rem;
         width: 100%;
+        height: 100%;
     }
 
     .contact_us_img_container {
         transform: scale(0.85);
-        right: 0.5rem;
+        right: 1.25rem;
         top: -3rem;
     }
 
@@ -1003,5 +1003,6 @@ body{
         margin-right: auto;
         font-size: 1rem;
         left: 7.5rem;
+        top: 1rem;
     }
 }
