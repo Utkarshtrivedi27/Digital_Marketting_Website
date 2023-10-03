@@ -837,7 +837,7 @@ body{
 @media (max-width: 800px){
 
     .nav_bar {
-        padding: 2vh 10vw;
+        padding: 4rem 5rem 2.5rem 2.3rem;
     }
 
     #hero_section {
@@ -863,18 +863,18 @@ body{
     .hero_action_buttons {
         position: relative;
         width: 100%;
-        right: -5vw;
+        right: -1vw;
     }
 
 
     .hero_section_img_container {
         transform: scale(0.65);
         right: 1vw;
-        top: 53.5vh;
+        top: 30rem;
     }
 
     .brands_section {
-        top: 37vh;
+        top: 22rem;
         padding: 10vh 2vw 10vh 6vw;
     }
 
