@@ -842,10 +842,10 @@ body{
 
     #hero_section {
         padding: 0 5vw;
-        padding-top: 8rem;
-        padding-bottom: 2rem;
+        padding-top: 13vh;
+        left: 3vw;
+        padding-bottom: 3.5vh;
     }
-
 
     .hero_info {
         width: 100%;
@@ -861,19 +861,21 @@ body{
 
 
     .hero_action_buttons {
+        position: relative;
         width: 100%;
+        right: -5vw;
     }
 
 
     .hero_section_img_container {
         transform: scale(0.65);
-        right: 1.5vw;
-        top: 50vh;
+        right: 1vw;
+        top: 53.5vh;
     }
 
     .brands_section {
-        top: 33vh;
-        padding: 5rem 2rem 5rem 2rem;
+        top: 37vh;
+        padding: 10vh 2vw 10vh 6vw;
     }
 
     #about_section {
@@ -888,7 +890,7 @@ body{
 
     .about_us_image_container {
         transform: scale(0.85);
-        left: 0.5rem;
+        left: 3.3vw;
     }
 
     .about_us {
@@ -942,15 +944,13 @@ body{
         padding-right: 1.5rem;
     }
 
+
     #faq_section {
         position: relative;
         top: 20vh;
-    }
-
-    #faq_section {
         padding: 0 0;
         padding-left: 2rem;
-        padding-right: 2rem;
+        padding-right: 1.5rem;
         margin-bottom: 1rem;
     }
 
@@ -961,8 +961,8 @@ body{
     #faq_section .section_title {
         text-align: center;
         margin-bottom: 2.5rem;
-        padding-left: 0.5rem;
-        padding-right: 2rem;
+        padding-left: 1rem;
+        padding-right: 1.5rem;
     }
 
 
@@ -977,14 +977,14 @@ body{
 
     .contact_us_img_container {
         transform: scale(0.85);
-        right: 1.5rem;
+        right: 0.5rem;
         top: -3rem;
     }
 
     .contact_us {
         position: relative;
         width: 100%;
-        height: 67vh;
+        height: 34rem;
         padding-top: 2rem;
         padding-left: 1rem;
         padding-right: 2rem;
@@ -993,7 +993,8 @@ body{
     }
 
     .contact_form {
-        padding-right: 1.3rem;
+        position: relative;
+        left: -3vw;
     }
 
     .contact_form .btn {
@@ -1001,6 +1002,6 @@ body{
         padding: 0.9rem 1.8rem;
         margin-right: auto;
         font-size: 1rem;
-        left: 6.5rem;
+        left: 7.5rem;
     }
 }
